@@ -119,10 +119,10 @@ kubectl apply -f kube-manifests/
 kubectl get pods
 
 # Verify Deployment
-kubectl get deployment
+kubectl get deployments
 
 # Verify Service (Make a note of external ip)
-kubectl get service
+kubectl get services
 
 # Access Application
 http://<External-IP-from-get-service-output>
