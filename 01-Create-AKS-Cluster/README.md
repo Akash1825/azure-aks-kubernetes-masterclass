@@ -120,9 +120,11 @@ kubectl get pods
 
 # Verify Deployment
 kubectl get deployments
+kubectl get deploy
 
 # Verify Service (Make a note of external ip)
 kubectl get services
+kubectl get svc
 
 # Access Application
 http://<External-IP-from-get-service-output>
